@@ -121,7 +121,6 @@ $("#loginForm").submit(function(event) {
         data: $(this).serializeArray(),
         success: function(response) {
             response = JSON.parse(response);
-            console.log("response: ", response);
             if (response.status == 0) { // đăng nhập lỗi
                 alert(response.message)
             } else { // đăng nhập thành công

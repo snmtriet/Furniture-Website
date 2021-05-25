@@ -90,7 +90,7 @@ if( empty($_SESSION["cart"])){
                 </div>
                 <div class="header__mid-left">
                     <div class="header__mid-left-name">
-                        <a class="header__mid-left-link" href="index.php">Urban Home</a>
+                        <a class="header__mid-left-link" href="index.php">Furniture</a>
                     </div>
                     <div class="header__mid-left-search">
                         <div class="header__mid-left-iconinput">

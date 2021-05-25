@@ -132,8 +132,6 @@ switch ($_GET['action']) {
           if($level == 1){
             $_SESSION["password"] = $password;
             $_SESSION["admin"] = $name;
-            $cookie_name = $name;
-            setcookie("admin",$cookie_name);
             echo json_encode(array(
               'status' => 1,
               'message' => 'đăng nhập đúng'
@@ -142,8 +140,6 @@ switch ($_GET['action']) {
           }else if($level == 0){
             $_SESSION["password"] = $password ;
             $_SESSION["user"] = $name;
-            $cookie_name = $name;
-            setcookie("user",$cookie_name);
             echo json_encode(array(
               'status' => 1,
               'message' => 'đăng nhập đúng'

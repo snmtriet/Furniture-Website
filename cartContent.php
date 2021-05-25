@@ -69,7 +69,7 @@ require_once "Database/db.php"; ?>
                 </div>
                 <div class="header__mid-left">
                     <div class="header__mid-left-name">
-                        <a class="header__mid-left-link" href="#">Urban Home</a>
+                        <a class="header__mid-left-link" href="index.php">Furniture</a>
                     </div>
                     <div class="header__mid-left-search">
                         <div class="header__mid-left-iconinput">
@@ -392,7 +392,7 @@ require_once "Database/db.php"; ?>
                     <div class="sticky">
                     <div class="cart__right-sales">
                         <div class="coupon-usage">
-                            <p>Urban khuyến mãi</p>
+                            <p>Furniture khuyến mãi</p>
                             <p>Có thể chọn 2 <i class="fas fa-exclamation-circle"></i></p>
                         </div>
                         <div class="platform-coupon">
@@ -526,5 +526,5 @@ require_once "Database/db.php"; ?>
         </div>
     </div>
     <hr>
-    <p class="nocopy">Copyright © 2021 Urban Home. Powered by Haravan</p>
+    <p class="nocopy">Copyright © 2021 Furniture. Powered by Hiteam</p>
     

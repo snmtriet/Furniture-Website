@@ -2,7 +2,7 @@
 session_start();
 require_once "./Database/db.php"; 
 $sql = "select * from noi_that";
-$result = mysqli_query($conn,$sql); 
+$result = mysqli_query($conn,$sql);
 ?>
 <!DOCTYPE html>
 <html lang="en">

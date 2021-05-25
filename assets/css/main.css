@@ -95,6 +95,19 @@ header .header__mid .header__mid-left {
     border-bottom: 1px dotted #dfe0e1;
 }
 
+.result_search .content__search:hover {
+    background-color: rgb(246, 246, 246);
+    cursor: pointer;
+}
+
+.result_search .content__search:hover span {
+    color: red;
+}
+
+.result_search .content__search:hover a {
+    color: var(--main-color);
+}
+
 .content__search .content__search-name a {
     font-size: 13px;
     text-overflow: ellipsis;
@@ -104,10 +117,6 @@ header .header__mid .header__mid-left {
     width: 100%;
     margin-bottom: 4px;
     font-weight: 600;
-}
-
-.content__search .content__search-name a:hover {
-    color: var(--main-color);
 }
 
 .content__search-name span {

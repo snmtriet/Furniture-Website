@@ -353,9 +353,9 @@ if( empty($_SESSION["cart"])){
             </div>
             <div class="infor-contact">
                 <p>Địa chỉ chúng tôi</p>
-                <strong>Tầng 4, tòa nhà Flemington, số 182, đường Lê Đại Hành, phường 15, quận 11, Tp. Hồ Chí Minh.</strong>
+                <strong>Trường Đại Học Kỹ Thuật - Công Nghệ Cần Thơ</strong>
                 <p>Email chúng tôi</p>
-                <strong>hi@haravan.com</strong>
+                <strong>hi@gmail.com</strong>
                 <p>Điện thoại</p>
                 <strong>1900.636.099</strong>
                 <p>Thời gian làm việc</p>

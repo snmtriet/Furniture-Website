@@ -17,7 +17,7 @@ if( empty($_SESSION["admin"])){
 <header>
     <div class="header__logo">
         <i class="fas fa-tools"></i>
-        <span>Urban</span>
+        <span>Furniture</span>
     </div>
     <div class="header__slogan">
         <div class="bars btn">
@@ -40,6 +40,7 @@ if( empty($_SESSION["admin"])){
     <li><a href="admin_libimg.php">Thư viện ảnh</a></li>
     <li><a href="admin_category.php">Danh mục</a></li>
     <li><a href="admin_order.php">Đơn hàng</a></li>
+    <li><a href="../index.php">Về trang chủ</a></li>
 </ul>
 </nav>
 </div>

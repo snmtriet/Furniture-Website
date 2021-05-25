@@ -2,6 +2,7 @@
 require_once '../Database/db.php';
 $sql = "SELECT * FROM `loai_noi_that`";
 $rs = mysqli_query($conn,$sql);
+$countCate = 0;
 ?>
 <div class="content_libImg">
 <table width="70%">
@@ -11,9 +12,9 @@ $rs = mysqli_query($conn,$sql);
             <th width="200">Mô tả</th>  
             <th width="10">Action</th>
         </tr>
-        <?php foreach($rs as $rows) {?>
+        <?php foreach($rs as $rows) {$countCate++?>
         <tr>
-            <td><?=$rows['ma_loai']?></td>
+            <td><?=$countCate?></td>
             <td><?=$rows['ten_loai']?></td>
             <td><?=$rows['mo_ta']?></td>            
             <td>

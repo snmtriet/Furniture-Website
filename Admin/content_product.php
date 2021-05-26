@@ -19,7 +19,14 @@
           <td><?=$rows['ten_noi_that']?></td>
           <td><?=number_format($rows['gia_noi_that'])?>đ</td>
           <td><?=$rows['quantity']?></td>
-          <td><?=$rows['ma_loai']?></td>
+          <td>
+          <?php
+          $id = $rows['ma_loai'];
+          $sqlcate = mysqli_query($conn,"SELECT * FROM loai_noi_that WHERE ma_loai = $id");
+          foreach($sqlcate as $rowCate) { ?>
+          <?=$rowCate['ten_loai']?>
+          <?php } ?>
+          </td>
           <td class="td-img">
               <div class="products-img">
               <?php

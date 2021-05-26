@@ -486,6 +486,27 @@ a {
     color: var(--black-color);
 }
 
+.link__admin {
+    width: 100%;
+    outline: none;
+    border: none;
+    line-height: 3rem;
+    text-align: start;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    background-color: var(--white-color);
+}
+
+.link__admin i {
+    padding-right: 2.2rem;
+    padding-left: 0.4rem;
+    font-size: 1.6rem;
+}
+
+.link__admin:hover {
+    color: var(--main-color);
+}
+
 .closeLogoutform {
     position: absolute;
     top: 4px;
@@ -2439,5 +2460,11 @@ input#cart-quantity::-webkit-inner-spin-button {
     }
     .registerForm {
         width: 70%;
+    }
+}
+
+@media only screen and (max-width: 680px) {
+    .container__body .body__product-list .body__product-list-content {
+        width: 50%;
     }
 }

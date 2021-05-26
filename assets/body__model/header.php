@@ -95,12 +95,10 @@
                                 <a id="login-form" class="login-link">
                                     <span class="Logined">Hi <?php print_r($_SESSION["admin"]) ?></span>
                                     <form class="adminlogined" id="logoutForm" action="action.php?action=logout" method="post">
-                                    <button>
                                         <a class="link__admin" href="Admin/admin.php">
                                         <i class="fas fa-users-cog"></i>
                                             Quản lý
                                         </a>
-                                    </button>
                                     <button type="submit">
                                         <i class="fas fa-sign-out-alt"></i>    
                                         Đăng xuất

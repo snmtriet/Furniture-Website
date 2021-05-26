@@ -420,7 +420,7 @@ require_once "Database/db.php"; ?>
                     <button name="update_click" class="cart__submit update"><a class="continue-buy" href="index.php">Xem sản phẩm khác</a></button>
                     </form>
                     <form id="deleteAllCart" method="POST">
-                    <button name="deleteallCart" class="cart__submit">Xóa giỏ hàng</button>
+                    <button name="deleteallCart" class="cart__submit">Xóa tất cả giỏ hàng</button>
                     </form>
                         <form id="checkLC" method="POST">
                         <button class="purchase_btnLast" name="purchases">Tiến hành đặt hàng</button> 

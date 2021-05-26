@@ -84,11 +84,11 @@ $("#deleteAllCart").submit(function(event) {
         type: "POST",
         url: "./action.php?action=deleteallCart",
         success: function(response) {
-            // response = JSON.parse(response);
+            response = JSON.parse(response);
             // if (response.status == 0) {
             //     alert(response.message);
             // } else {
-            //     location.href = "checkout.php";
+            //     location.href = "incart.php";
             // }
         }
     });

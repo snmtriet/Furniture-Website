@@ -191,9 +191,9 @@ require_once "Database/db.php"; ?>
                             <div class="cart__mini">
                                 <p class="title-bold">Giỏ hàng</p>
                                 <div class="cart-scroll">
-                                    <?php if($_SESSION["cart"]) {?>
+                                    <?php if($_SESSION["cart"]) { ?>
                                             <table id="cart-view">
-                                            <?php 
+                                        <?php 
                                         if (is_array($products) || is_object($products)) {
                                             $totals = 0;
                                         foreach ($products as $rows) {
@@ -226,7 +226,9 @@ require_once "Database/db.php"; ?>
                                         </tr>
                                         <?php } }?>
                                             </table>
-                                    <?php }else {?>
+                                    <?php }else {
+                                    $_SESSION["cart"] = array();
+                                    ?>
                                         <table id="cart-view" >
                                             <div class="empty_cart-mini">
                                                 <svg  svg width="81" height="70" viewBox="0 0 81 70">
@@ -443,10 +445,6 @@ require_once "Database/db.php"; ?>
             </div>
             <?php } ?>
         </div>
-        <?php if($_SESSION["cart"] == null) { ?>
-            </div>
-    <?php include("./assets/body__model/footer.php"); ?>
-    <?php } ?>
 </div>
 <footer class="footer">
             <div class="footer__top">

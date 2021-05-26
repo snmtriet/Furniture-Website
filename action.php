@@ -206,7 +206,7 @@ switch ($_GET['action']) {
     $name = $_POST["name"];
     if($name != ''){
     $sql = "SELECT * FROM `noi_that` WHERE `ten_noi_that` LIKE '%".$name."%'
-    or `gia_noi_that` LIKE '%".$name."%'";
+    or `gia_noi_that` LIKE '%".$name."%' LIMIT 6";
     $result = mysqli_query($conn,$sql);
     $num = mysqli_num_rows($result);
     if($num > 0){
